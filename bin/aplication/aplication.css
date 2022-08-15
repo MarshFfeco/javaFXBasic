@@ -1,0 +1,126 @@
+.root{
+    -fx-background-color: black;
+}
+
+#myCircle {
+    -fx-stroke: white;
+}
+
+#up {
+    /*TEXT*/
+    -fx-text-fill: #AD1700;
+
+    /*BORDE*/
+    -fx-border-radius: 10px;
+    -fx-border-color: #AD1700;
+    
+    /*BACKGROUND*/
+    -fx-background-radius: 10px;
+    -fx-background-color: transparent;
+}
+
+#up:hover {
+    /*TEXT*/
+    -fx-text-fill: #E01C00;
+
+    /*BORDE*/
+    -fx-border-color: #E01C00;
+}
+
+#up:pressed {
+    /*TEXT*/
+    -fx-text-fill: #E65A45;
+
+    /*BORDE*/
+     -fx-border-color: #E65A45;
+}
+
+#down {
+    /*TEXT*/
+    -fx-text-fill: #50B300;
+
+    /*BORDE*/
+    -fx-border-radius: 10px;
+    -fx-border-color: #50B300;
+    
+    /*BACKGROUND*/
+    -fx-background-radius: 10px;
+    -fx-background-color: transparent;
+}
+
+#down:hover {
+    /*TEXT*/
+    -fx-text-fill: #66E000;
+
+    /*BORDE*/
+    -fx-border-color: #66E000;
+}
+
+#down:pressed {
+    /*TEXT*/
+    -fx-text-fill: #8DE645;
+
+    /*BORDE*/
+     -fx-border-color: #8DE645;
+}
+
+#left {
+    /*TEXT*/
+    -fx-text-fill: #007AB3;
+
+    /*BORDE*/
+    -fx-border-radius: 10px;
+    -fx-border-color: #007AB3;
+    
+    /*BACKGROUND*/
+    -fx-background-radius: 10px;
+    -fx-background-color: transparent;
+}
+
+#left:hover {
+    /*TEXT*/
+    -fx-text-fill: #0099E0;
+
+    /*BORDE*/
+     -fx-border-color: #0099E0;
+}
+
+#left:pressed {
+    /*TEXT*/
+    -fx-text-fill: #45B3E6;
+
+    /*BORDE*/
+     -fx-border-color: #45B3E6;
+}
+
+#right {
+    /*TEXT*/
+    -fx-text-fill: #B38900;
+
+    /*BORDE*/
+    -fx-border-radius: 10px;
+    -fx-border-color: #B38900;
+    
+    /*BACKGROUND*/
+    -fx-background-radius: 10px;
+    -fx-background-color: transparent;
+}
+
+#right:hover {
+    /*TEXT*/
+    -fx-text-fill: #E0AC00;
+
+    /*BORDE*/
+    -fx-border-color: #E0AC00;
+}
+
+#right:pressed {
+    /*TEXT*/
+    -fx-text-fill: #E6C045;
+
+    /*BORDE*/
+     -fx-border-color: #E6C045;
+}
+
+
+

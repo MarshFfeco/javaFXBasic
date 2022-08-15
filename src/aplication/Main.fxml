@@ -36,13 +36,12 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Circle?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aplication.Controller">
    <children>
-      <Button layoutX="284.0" layoutY="29.0" mnemonicParsing="false" onAction="#up" text="UP" />
-      <Button layoutX="273.0" layoutY="346.0" mnemonicParsing="false" onAction="#down" text="DOWN" />
-      <Button layoutX="24.0" layoutY="187.0" mnemonicParsing="false" onAction="#left" text="LEFT" />
-      <Button layoutX="522.0" layoutY="187.0" mnemonicParsing="false" onAction="#right" text="RIGHT" />
-      <Circle fx:id="myCircle" fill="DODGERBLUE" layoutX="300.0" layoutY="213.0" radius="64.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="up" layoutX="284.0" layoutY="29.0" mnemonicParsing="false" onAction="#up" text="UP" />
+      <Button fx:id="down" layoutX="273.0" layoutY="346.0" mnemonicParsing="false" onAction="#down" text="DOWN" />
+      <Button fx:id="left" layoutX="24.0" layoutY="187.0" mnemonicParsing="false" onAction="#left" text="LEFT" />
+      <Button fx:id="right" layoutX="522.0" layoutY="187.0" mnemonicParsing="false" onAction="#right" text="RIGHT" />
+      <Circle fx:id="myCircle" fill="#9c53e500" layoutX="300.0" layoutY="213.0" radius="64.0"  stroke="#9e53e8" strokeType="INSIDE" strokeWidth="2.0" />
    </children>
 </AnchorPane>

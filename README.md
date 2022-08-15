@@ -14,7 +14,7 @@
 
 <br>
 
-<h4 align="center">☛ PROJETO EM ANDAMENTO ☚</h4>
+<h2 align="center">☛ PROJETO EM ANDAMENTO ☚</h2>
 
 <br>
 <br>
@@ -26,13 +26,15 @@
 
 # Preview
 <div style="margin: 50px">
-  <img  alt="Tela Principal" title="Tela Principal" src="ScreenShot\pr1.png"/>
+  <h3 align="center">Antiga</h3>
+  <img alt="Tela Principal antiga" title="Tela Principal antiga" src="ScreenShot\pr1.png"/>
+  <h3 style="margin-top: 50px" align="center">Atualizada</h3>
+  <img alt="Tela Principal" title="Tela Principal" src="ScreenShot\pr2.png"/>
 </div>
 
 <br>
 
 # Tecnologias
-
  - JavaFX
  - SceneBuilder
   
@@ -48,6 +50,6 @@ Anderson
 <br>
 
 # Version
-- 0.1.0
+- 0.2.0
 
 
